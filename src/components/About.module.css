@@ -173,6 +173,7 @@
     .body_wrapper{
         align-items: flex-start;
         padding: 30px;
+        padding-left: 100px;
     }
 
     .image{
@@ -213,6 +214,7 @@
     .body_wrapper{
         align-items: flex-start;
         padding: 10px;
+        padding-left: 100px;
     }
 
     .image{
