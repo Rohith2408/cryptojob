@@ -1,0 +1,346 @@
+.mainwrapper{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1;
+    background-color: black;
+    position: relative;
+}
+  
+  .subwrapper{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding:10px;
+    position: relative;
+  }
+
+  
+
+  .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: center;
+    /* width: 100%;
+    height:100%; */
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .logo_text{
+    color:white;
+    font-family: Arial;
+    margin: 0;
+  }
+
+  .title{
+    color:white;
+    font-family: Arial;
+    margin: 0;
+  }
+
+  .title_wrapper{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+  }
+
+  .subtitle{
+    font-family: 'Average Sans';
+    color: white;
+    margin: 0px;
+  }
+
+  .bitcoin{
+    position: absolute;
+    z-index: -1;
+  }
+
+  .apply_wrapper{
+    border: none;
+    background-color: #F35701;
+  }
+
+  .apply{
+    color:white;
+    font-family: Arial;
+    margin: 0;
+  }
+
+  .header{
+    position: absolute;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  @media screen and (max-width:500px) {
+
+    .mainwrapper{
+        max-height: 500px;
+        min-height: 450px;
+    }
+
+    .subwrapper{
+        max-width: 2200px;
+        flex-direction: row;
+    }
+
+    .body{
+        margin-top: 50%;
+        gap:25px;
+        justify-content: center;
+    }
+
+    .subtitle{
+        font-size: 14px;
+        max-width: 80%;
+    }
+
+    .title{
+        font-size:44px;
+    }
+
+    .title_wrapper{
+        gap:20px;
+    }
+
+    .bitcoin{
+        bottom: 80%;
+        height:200px;
+        object-fit: contain;
+    }
+
+    .apply_wrapper{
+        border-radius: 30px;
+    }
+
+    .apply{
+        padding: 10px;
+        font-size: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header{
+        top: 3%;
+    }
+
+    .logo_text{
+        font-size:20px;
+    }
+
+    .logo{
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+    }
+
+  }
+
+  @media screen and (min-width:501px) and (max-width:1023px) {
+
+    .mainwrapper{
+        max-height: 680px;
+        min-height: 600px;
+    }
+
+    .subwrapper{
+        max-width: 2200px;
+        flex-direction: row;
+    }
+
+    .body{
+        /* padding-top:50px; */
+        margin-top: 30%;
+        gap:25px;
+        justify-content: center;
+    }
+
+    .subtitle{
+        font-size: 18px;
+        max-width: 80%;
+    }
+
+    .title{
+        font-size:80px;
+    }
+
+    .title_wrapper{
+        gap:25px;
+    }
+
+    .bitcoin{
+        bottom: 80%;
+        height:270px;
+        object-fit: contain;
+    }
+
+    .apply_wrapper{
+        border-radius: 30px;
+    }
+
+    .apply{
+        padding: 14px;
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header{
+        top: 3%;
+    }
+
+    .logo_text{
+        font-size:22px;
+    }
+
+    .logo{
+        width: 36px;
+        height: 36px;
+        object-fit: contain;
+    }
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1920px) {
+
+    .mainwrapper{
+        max-height: 980px;
+        min-height: 900px;
+    }
+
+    .subwrapper{
+        max-width: 2200px;
+        flex-direction: row;
+    }
+
+    .body{
+        /* padding-top:50px; */
+        margin-top: 20%;
+        gap:25px;
+        justify-content: center;
+    }
+
+    .subtitle{
+        font-size: 24px;
+        max-width: 80%;
+    }
+
+    .title{
+        font-size:120px;
+    }
+
+    .title_wrapper{
+        gap:25px;
+    }
+
+    .bitcoin{
+        bottom: 80%;
+        height:350px;
+        object-fit: contain;
+    }
+
+    .apply_wrapper{
+        border-radius: 30px;
+    }
+
+    .apply{
+        padding: 20px;
+        font-size: 20px;
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+
+    .header{
+        top: 3%;
+    }
+
+    .logo_text{
+        font-size: 24px;
+    }
+
+    .logo{
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+
+  }
+
+  @media screen and (min-width:1921px){
+
+    .mainwrapper{
+        max-height: 1080px;
+        min-height: 1080px;
+    }
+
+    .subwrapper{
+        max-width: 2200px;
+        flex-direction: row;
+    }
+
+    .body{
+        /* padding-top:50px; */
+        margin-top: 20%;
+        gap:25px;
+        justify-content: center;
+    }
+
+    .subtitle{
+        font-size: 24px;
+        max-width: 80%;
+    }
+
+    .title{
+        font-size:120px;
+    }
+
+    .title_wrapper{
+        gap:25px;
+    }
+
+    .bitcoin{
+        bottom: 80%;
+        height:400px;
+        object-fit: contain;
+    }
+
+    .apply_wrapper{
+        border-radius: 30px;
+    }
+
+    .apply{
+        padding: 20px;
+        font-size: 20px;
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+
+    .header{
+        top: 3%;
+    }
+
+    .logo_text{
+        font-size: 28px;
+    }
+
+    .logo{
+        width: 44px;
+        height: 44px;
+        object-fit: contain;
+    }
+
+  }
+
