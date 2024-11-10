@@ -14,6 +14,7 @@ const Form=()=>{
           document.body.removeChild(script);
         };
       }, []);
+      
 
     return(
         <section className={styles.mainwrapper} id="form" data-scroll-to="form">

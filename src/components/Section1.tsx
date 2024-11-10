@@ -32,7 +32,9 @@ const Section1=()=>{
     },[currentbg])
 
     const openForm=()=>{
-        window.open("https://tally.so/r/3xNOQv", "_blank");
+        const section = document.querySelector(`[data-scroll-to=form]`);
+        section?.scrollIntoView({ behavior: 'smooth' });
+        //window.open("https://tally.so/r/3xNOQv", "_blank");
     }
 
     return(
